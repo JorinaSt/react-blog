@@ -1,5 +1,6 @@
 
 import "./sidebar.css";
+import profilePic from "./profile.png"
 
 export default function Sidebar() {
   return (
@@ -7,12 +8,17 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img
-          src="https://themegoods-cdn-pzbycso8wng.stackpathdns.com/grandblog/demo/wp-content/uploads/2015/11/aboutme.jpg"
+          src={profilePic}
           alt=""
         />
         <p>
-          Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
-          amet ex esse.Sunt eu ut nostrud id quis proident.
+        I'm an avid explorer with a passion for discovering new destinations and cultures. 
+        Every journey I take adds a new chapter to my adventure-filled life story. <br />
+        <br />
+        Here, you'll find my experiences, tips, and dream destinations. 
+        Join me as I navigate the world's most fascinating places, one trip at a time!
+        
+        
         </p>
       </div>
       <div className="sidebarItem">
@@ -20,38 +26,38 @@ export default function Sidebar() {
         <ul className="sidebarList">
           <li className="sidebarListItem">
             
-              Life
+              Destinations
            
           </li>
           <li className="sidebarListItem">
     
-              Music
+              Food & Drinks
            
           </li>
           <li className="sidebarListItem">
             
-              Sport
+              Travel tips 
            
           </li>
           <li className="sidebarListItem">
             
-              Style
+              Travel fashion
             
           </li>
           <li className="sidebarListItem">
             
-              Tech
+              City trips 
          
           </li>
           <li className="sidebarListItem">
          
-              Cinema
+              Luxury stays 
           
           </li>
         </ul>
       </div>
       <div className="sidebarItem">
-        <span className="sidebarTitle">FOLLOW US</span>
+        <span className="sidebarTitle">FOLLOW ME</span>
         <div className="sidebarSocial">
           <i className="sidebarIcon fab fa-facebook-square"></i>
           <i className="sidebarIcon fab fa-instagram-square"></i>
